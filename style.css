@@ -1,0 +1,67 @@
+html,body {
+  height: 100%;
+}
+
+.my-login-page {
+  background-image: url("bg-01.jpg");
+  font-size: 14px;
+}
+
+.card-wrapper {
+  display: block;
+  margin: auto;  
+  width: 450px;
+
+}
+ .card {
+  border-color: transparent;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0,0,0,.06);
+}
+.card-title {
+  margin-bottom: 35px;
+  text-align: center;
+  font-weight: bold;
+}
+/*#no-outline:focus {
+  outline: none;
+}*/
+
+.lablename{
+  font-size: 15px;
+  font-weight: 500;
+}
+.box{
+  display: flex;
+  border-bottom: 2px solid grey;
+}
+.form-control {
+  border:0;
+  color: grey;
+}
+.form-control:focus {
+  border: none; 
+border-width: 0; 
+box-shadow: none;
+}
+
+.btn-block {
+  padding: 12px 10px;
+  border-radius: 25px;
+}
+
+
+@media screen and (max-width: 425px) {
+  .card-wrapper {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .card.fat {
+    padding: 0;
+  }
+
+
+}
